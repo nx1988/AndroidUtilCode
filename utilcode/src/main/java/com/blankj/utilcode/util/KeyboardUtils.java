@@ -55,7 +55,7 @@ public final class KeyboardUtils {
 
     /**
      * 动态隐藏软键盘
-     *
+     * hideSoftInputFromWindow()中第二个参数用0，适用性更广。
      * @param activity activity
      */
     public static void hideSoftInput(final Activity activity) {
